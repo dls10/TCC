@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lukesamora/dev/cc/include/Preprocessor.h
+string
+-
+list
+-
+experimental/optional
+-
+fstream
+-
+regex
+-
+
+/Users/lukesamora/dev/cc/src/Preprocessor.cpp
+../include/Preprocessor.h
+/Users/lukesamora/dev/cc/include/Preprocessor.h
+sstream
+-
+iostream
+-
+
+/Users/lukesamora/dev/cc/src/main.cpp
+../include/Preprocessor.h
+/Users/lukesamora/dev/cc/include/Preprocessor.h
+iostream
+-
+
